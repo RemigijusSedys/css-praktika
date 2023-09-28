@@ -1,0 +1,11 @@
+h1::-moz-selection {
+    color: red;
+}
+
+h1::selection{
+    color: red;
+}
+h2::selection{
+    background-color: green;
+}
+

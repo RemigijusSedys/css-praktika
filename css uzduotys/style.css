@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ========================================== */
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  margin: 3em;
+  
+  padding: 10px;
+}
+
+.container1 {
+}
+.container1 h2 {
+  color: green;
+}
+.container1 a {
+  color: blue;
+  text-decoration-color: blue;
+}
+.container1 a:visited {
+  color: red;
+  text-decoration-color: red;
+}
+/* ========================================== */
+.container2 {
+}
+.container2 h2 {
+  color: green;
+}
+.container2 input:focus {
+  background-color: aqua;
+}
+/* ========================================== */
+.container3 {
+}
+.container3 h2 {
+  color: green;
+}
+.container3 p:first-child {
+  font-weight: 1em;
+  color: red;
+}
+.container3 p:first-of-type {
+  color: green;
+}
+
+/* ========================================== */
+.container4 {
+  width: 65vh;
+}
+
+.container4 h2,
+.container4 p {
+  color: green;
+}
+.container4 p {
+  font-size: 1em;
+}
+.container4 p::first-line {
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* ========================================== */
+.container5 {
+}
+
+.box1 {
+  
+  margin: 3em;
+  width: 30vh;
+}
+.box1 h2 {
+  padding: 1rem ;
+  color: green;
+}
+.box1 p {
+  font-size: 1.5em;
+  width: 30vh;
+  padding: 1rem ;
+}
+.box1 p:hover {
+  background-color: yellow;
+}
+/* ========== */
+.box2 {
+  margin: 3em;
+  width: 30vh;
+}
+.box2 h2 {
+  padding: 1rem;
+  color: green;
+  font-weight: bold;
+}
+
+.box2 p {
+  padding: 1rem ;
+  font-size: 1.5em;
+  width: 30vh;
+}
+.box2 p:active {
+  background-color: yellow;
+}
+/* ========================================== */

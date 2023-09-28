@@ -1,0 +1,28 @@
+
+img {
+    height: 200px;
+    width: auto;
+    float: right;
+    border-radius: 20px;
+}
+
+.container {
+    padding-top: 10px;
+    width: 520px;
+    height: 215px;
+    border-top: 5px solid #000000;
+    border-bottom: 15px solid #000000;
+    border-left: 15px solid #000000;
+}
+.remeliui {
+    border-radius: 20px;
+    border: 3px dashed black;
+    width: 500px;
+    float: left;
+    padding: 5px;
+}
+.remeliui h2, h6 {
+    width: 150px;
+    
+}
+

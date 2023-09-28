@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 600px;
+    border: 1px solid rgb(39, 39, 39);
+}
+.pink {
+    background-color: rgb(217, 33, 33);
+}
+.header, .nav, .aside, .main, .next-aside, .footer {
+    margin: 10px;
+}
+.header {
+    float: inline-start;
+    height: 60px;
+}
+.nav {
+    float: inline-start;
+    height: 30px;
+}
+.aside{
+    float: left;
+    width: 250px;
+}
+.main{
+    width: 250px;
+}
+.next-aside{
+    width: 250px;
+    float: right;
+}
+.footer{
+    float: inline-end;
+    height: 25px;
+}
